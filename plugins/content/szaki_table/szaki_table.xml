@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="content">
+	<name>plg_content_szaki_table</name>
+	<author>Szaki</author>
+	<creationDate>2011-01-23</creationDate>
+	<copyright>(C) 2011 szathmari.hu All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@szathmari.hu</authorEmail>
+	<authorUrl>www.szathmari.hu</authorUrl>
+	<version>0.2</version>
+	<description>PLG_CONTENT_SZAKI_TABLE_XML_DESCRIPTION</description>
+	
+	<!-- Main Files -->
+	<files>
+		<filename plugin="szaki_table">szaki_table.php</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+		<folder>assets</folder>
+	</files>
+	
+	<!-- Admini language -->
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_content_szaki_table.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_content_szaki_table.sys.ini</language>
+		<language tag="hu-HU">hu-HU/hu-HU.plg_content_szaki_table.ini</language>
+		<language tag="hu-HU">hu-HU/hu-HU.plg_content_szaki_table.sys.ini</language>
+	</languages>
+	
+	<!-- Plugin Config -->
+	<config>
+		<fields name="params">
+			<fieldset name="basic">	
+				<field name="jQuery" type="list" default="1" label="JQUERY" description="JQUERY_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.7//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.7/template-install.dtd">
+<extension version="1.7" type="template" client="site">
+	<name>themza_j17_07</name>
+	<version>1.7.0</version>
+	<creationDate>07 Oct 2011</creationDate>
+	<author>Themza Team</author>
+	<authorEmail>templates@themza.com</authorEmail>
+	<authorUrl>http://www.themza.com</authorUrl>
+	<copyright>Copyright (C) 2005 - 2011 ThemZa.com All rights reserved.</copyright>
+	<license>ThemZa TOS</license>
+	<description><![CDATA[
+	<h1>Chess Masters</h1>
+	<img src="../templates/themza_j17_07/template_thumbnail.png" align="left" hspace="10" style="padding-right:10px;"/>
+	<b>Free Joomla 1.7 Template developed by <a target="_blank" href="http://www.themza.com">ThemZa</a>, released under the <a target="_blank" href="http://www.themza.com/terms.php">Themza TOS</a>.
+	<br /><br />Copyright &copy; 2005 - 2011 ThemZa.com All rights reserved.</b>
+	]]></description>
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+
+	<positions>
+		<position>debug</position>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+	</positions>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+
+				<field name="colorVariation" type="list" default="red" label="Color Variation" description="Color variation to use">
+					<option value="red">Red</option>
+					<option value="orange">Orange</option>
+					<option value="green">Green</option>
+				</field>
+
+				<field name="hideLogo" type="radio" default="0" label="Hide Logo" description="Hide the logo.">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+
+				<field name="logoVariation" type="list" default="1" label="Logo Variation" description="Logo variation to use">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+				</field>
+
+				<field name="logo" type="media"
+					label="Logo" description="Please choose an image. If you do not want to display a logo, click on Select, do not highlight any image and then click on Insert in the modal window" />
+
+				<field name="sitetitle"  type="text" default="Your Site Title"
+					label="Site Title"
+					description="Please add your site title here, it's only displayed if you don't use a logo"
+					filter="string" />
+					
+				<field name="bannertext"  type="textarea" rows="10" cols="35" default="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+					label="Caption"
+					description="This is the caption text"
+					filter="string" />
+					
+			</fieldset>
+		</fields>
+	</config>
+</extension>
+

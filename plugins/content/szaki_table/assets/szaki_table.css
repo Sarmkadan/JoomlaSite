@@ -1,0 +1,60 @@
+div.szakitable {
+	display:block;
+	position:relative;
+	clear:both;
+	margin: 5px 0 10px;
+}
+
+div.szakitable div.resize {
+	position:relative;
+	background-color:transparent;
+	z-index: 50;
+	overflow-x:hidden;
+}
+
+div.szakitable, div.szakitable  .hover {
+	width:550px;
+}
+
+div.szakitable  .wide {
+	width:750px;
+}
+
+div.szakitable  .hover {
+	background-color:#fff!important;
+	box-shadow: 2px 2px 2px #AAA;
+	-moz-box-shadow: 2px 2px 2px #AAA;
+	-webkit-box-shadow:2px 2px 2px #AAA;
+}
+
+div.szakitable .odd{
+	background-color:#eee;
+}
+
+div.szakitable th { 
+    background-image: url(bgs.gif);     
+    cursor: pointer; 
+    background-repeat: no-repeat; 
+    background-position: right 50%;
+	padding-right:15px;
+	background-color:#ddd;
+}
+div.szakitable th.headerSortDown { 
+	background-position: right -110px;
+} 
+div.szakitable th.headerSortUp { 
+	background-position: right 4px;
+}
+
+input.szakitable {
+	background:#fff;
+	border: 1px solid #999;
+	width:90px;
+	color:#333;
+}
+div.szakitable div.filter{
+	font-size:0.9em;
+	display:block;
+	text-align: right!important;
+	padding:5px 5px 0;
+}
